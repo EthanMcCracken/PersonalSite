@@ -104,12 +104,13 @@ p {
 
 .topCloud {
   position: absolute;
-  right: 530px;
-  top: 280px;
+  right: 200px;
+  top: 250px;
+
 }
 
 .bottomCloud {
-  left: 550px;
+  left: 150px;
   position: absolute;
 }
 
@@ -158,4 +159,21 @@ font-size: 0.75rem;
 .myButton:active {
   position: relative;
   top: 1px;
+}
+
+@media (max-width: 1050px) {
+
+  .topCloud{
+
+
+top: 500px;
+
+  }
+
+  .bottomCloud{
+
+
+
+  }
+
 }
